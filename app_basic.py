@@ -65,6 +65,9 @@ def find_PCAKmeans(imagepath1, imagepath2):
 
     image1 = np.asarray(cv2.imread(imagepath1, 0))
     image2 = np.asarray(cv2.imread(imagepath2, 0))
+    
+    image1 = cv2.resize(image1, (256,256))
+    image2 = cv2.resize(image2, (256,256))
 
     print("Image1 shape: ", image1.shape)
     print("Image2 shape: ", image2.shape)
