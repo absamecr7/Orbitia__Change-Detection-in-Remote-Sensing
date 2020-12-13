@@ -102,6 +102,7 @@ def find_PCAKmeans(imagepath1, imagepath2):
                          (0, 0, 1, 0, 0)), dtype=np.uint8)
 
     cleanChangeMap = cv2.erode(change_map, kernel)
+    print("-----------------------------DONE WITH CHANGE MAP---------------------------------------")
 
     unique_filename = str(uuid.uuid4().hex)
     cv2.imwrite(os.path.join(
