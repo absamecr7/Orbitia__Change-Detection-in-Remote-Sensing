@@ -38,7 +38,7 @@ def page1():
 @app.route('/pcaanalysis', methods=['POST', 'GET'])
 def pcaanalysis():
     if request.method == 'POST':
-        UPLOAD_PCA = './static/upload_pca'
+        UPLOAD_PCA = './static/'
         app.config['UPLOAD_PCA'] = UPLOAD_PCA
         image1_path = request.files['file']
         image2_path = request.files['file1']
@@ -60,7 +60,7 @@ def pcaanalysis():
 
 # pca final
 def find_PCAKmeans(imagepath1, imagepath2):
-    UPLOAD_PCA = './static/upload_pca'
+    UPLOAD_PCA = './static/'
     app.config['UPLOAD_PCA'] = UPLOAD_PCA
 
     image1 = np.asarray(cv2.imread(imagepath1, 0))
