@@ -30,9 +30,4 @@ as a part of challenges that frequently conduct. Datasets can be found at - http
 
 #### Demo video link - https://drive.google.com/file/d/1Ft_ow4ph5StnUc2EF8rlBNbe-eINDeyw/view?usp=sharing
 
-![I1_Gif](https://user-images.githubusercontent.com/47049275/143491790-1268a6ca-8ad4-400d-a227-7fb44466b22c.gif)
-![I2_Gif](https://user-images.githubusercontent.com/47049275/143491794-36af4020-d160-44bc-a5fe-84535f9e0db0.gif)
-![I4_Gif](https://user-images.githubusercontent.com/47049275/143491795-ef8831cc-7aca-44f7-b06f-00a8adca78d8.gif)
-![i#_gIF](https://user-images.githubusercontent.com/47049275/143491715-621a6aa9-21e7-4aeb-9ae1-3f533a34a9fa.gif)
-
 
